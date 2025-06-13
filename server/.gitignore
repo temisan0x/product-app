@@ -1,0 +1,68 @@
+# Compiled source files
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.a
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+
+# Build and distribution folders
+/dist/
+/build/
+/out/
+/bin/
+*.jar
+*.war
+*.ear
+
+# Environment files (sensitive data!)
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+
+# Debug files
+*.debug
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Testing files
+/coverage/
+*.lcov
+
+# Package manager files
+yarn.lock
+package-lock.json
