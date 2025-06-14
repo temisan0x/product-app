@@ -52,8 +52,6 @@ app.use((req, res) => {
   });
 });
 
-
-
 app.use(globalErrorHandler);
 
 app.use(cors({
